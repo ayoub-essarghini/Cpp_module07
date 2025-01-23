@@ -25,7 +25,7 @@ Array<T> &Array<T>::operator=(const Array &other)
 {
     if (this != &other)
     {
-        T *temp = new T[other._size]; // Allocate temporary memory
+        T *temp = new T[other._size]; 
         for (unsigned int i = 0; i < other._size; i++)
         {
             temp[i] = other._elements[i];
